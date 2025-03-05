@@ -1,0 +1,60 @@
+
+ h1{
+    font-size: 35px;
+ }
+ .before-skill{
+    margin-top: 15px;
+ }
+ .navbar .active::before {
+   width: 10%;
+   left: 4px;}
+   .navbar .nav-link:hover::before{
+      width: 10%;
+   }
+
+ header p::after{
+    font-size: 25px;
+ }
+ .services .ph , .blog .paragraph , .Portfolio .paragraph{
+   font-size: 14px; }
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {
+
+    h1{
+        font-size: 75px;
+     }
+
+     .before-skill{
+        margin-top: 0;
+     }
+
+ 
+     header p::after{
+        font-size: 40px;
+     }
+
+     .services .ph  ,  .blog .paragraph , .Portfolio .paragraph{
+      font-size: 16px; }
+}
+
+
+
+@media (min-width: 992px) {
+
+   .navbar .active::before {
+      width: 80%;
+      left: 7px;}
+      .navbar .nav-link:hover::before{
+         width: 80%;
+      }
+}
+
+
+@media (min-width: 1200px) {}
+
+
+@media (min-width: 1400px) {}
+
+
